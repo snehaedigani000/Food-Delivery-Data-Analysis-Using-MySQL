@@ -1,0 +1,46 @@
+3. ER DIAGRAM DOCUMENTATION
+ER Diagram Name: Food Delivery Data Analysis System
+
+Entities:
+1. Customers
+2. Restaurants
+3. Food_Items
+4. Delivery_Partners
+5. Orders
+6. Order_Items
+7. Payments
+8. Reviews
+Relationships:
+1. Customers and Orders – One-to-Many (1:M).
+2. Restaurants and Orders – One-to-Many (1:M).
+3. Restaurants and Food_Items – One-to-Many (1:M).
+4. Orders and Order_Items – One-to-Many (1:M).
+5. Food_Items and Order_Items – One-to-Many (1:M).
+6. Delivery_Partners and Orders – One-to-Many (1:M).
+7. Orders and Payments – One-to-One (1:1).
+8. Customers and Reviews – One-to-Many (1:M).
+9. Restaurants and Reviews – One-to-Many (1:M).
+10. Orders and Reviews – One-to-Zero-or-One (1:0..1).
+Text-Based ER Diagram:
+                 CUSTOMERS
+                     |
+                    1:M
+                     |
+                   ORDERS
+                     |
+                    1:M
+                     |
+                 ORDER_ITEMS
+                     |
+                    M:1
+                     |
+                 FOOD_ITEMS
+                     |
+                    M:1
+                     |
+                RESTAURANTS
+
+
+RESTAURANTS (1) -------- (M) ORDERS
+
+RESTAURANTS (1) -------- (M) FOOD_ITEMS

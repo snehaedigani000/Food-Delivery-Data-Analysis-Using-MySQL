@@ -1,0 +1,30 @@
+2. SYSTEM REQUIREMENTS
+A. Hardware Requirements
+1. Processor: Intel Core i3 or above.
+2. RAM: Minimum 4 GB.
+3. Hard Disk: Minimum 10 GB free space.
+4. System: Desktop or Laptop.
+B. Software Requirements
+1. Operating System: Windows 10/11.
+2. Database: MySQL.
+3. Database Management Tool: MySQL Workbench.
+4. Programming Language: SQL.
+5. Documentation Tool: MS Word.
+C. Functional Requirements
+1. Customer Management: Store and manage customer details.
+2. Restaurant Management: Maintain restaurant information.
+3. Food Management: Store food names, categories and prices.
+4. Order Management: Maintain customer order details.
+5. Payment Management: Store payment methods and payment status.
+6. Delivery Management: Maintain delivery partner information.
+7. Review Management: Store customer ratings and feedback.
+8. Sales Analysis: Calculate total revenue and monthly sales.
+9. Customer Analysis: Identify frequent customers.
+10. Restaurant Analysis: Identify top-performing restaurants.
+D. Non-Functional Requirements
+1. Performance: Execute SQL queries efficiently.
+2. Security: Protect database information.
+3. Reliability: Maintain accurate records.
+4. Scalability: Support additional data.
+5. Data Integrity: Maintain consistency using keys and constraints.
+6. Maintainability: Allow easy database updates.

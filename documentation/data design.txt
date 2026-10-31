@@ -1,0 +1,64 @@
+Database Description:
+
+The Food Delivery Data Analysis System uses a relational database to store and manage information about customers, restaurants, food items, orders, payments, delivery partners and reviews. The database is designed using primary keys and foreign keys to establish relationships between different tables and maintain data integrity.
+
+Entities and Attributes:
+
+1. Customers
+- customer_id – Primary Key
+- customer_name
+- email
+- phone
+- address
+- city
+- registration_date
+2. Restaurants
+- restaurant_id – Primary Key
+- restaurant_name
+- location
+- city
+- contact_number
+- rating
+3. Food_Items
+- food_id – Primary Key
+- restaurant_id – Foreign Key
+- food_name
+- category
+- price
+- availability_status
+4. Delivery_Partners
+- delivery_partner_id – Primary Key
+- partner_name
+- phone
+- vehicle_type
+- city
+5. Orders
+- order_id – Primary Key
+- customer_id – Foreign Key
+- restaurant_id – Foreign Key
+- delivery_partner_id – Foreign Key
+- order_date
+- order_status
+- total_amount
+6. Order_Items
+- order_item_id – Primary Key
+- order_id – Foreign Key
+- food_id – Foreign Key
+- quantity
+- item_price
+- subtotal
+7. Payments
+- payment_id – Primary Key
+- order_id – Foreign Key
+- payment_date
+- payment_method
+- payment_status
+- amount
+8. Reviews
+- review_id – Primary Key
+- customer_id – Foreign Key
+- restaurant_id – Foreign Key
+- order_id – Foreign Key
+- rating
+- review_comment
+- review_date
